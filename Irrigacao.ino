@@ -41,7 +41,7 @@ void loop(){
 
   ImprimeTemp_Humid();
 
-  //if (umidad < 35.00){ //comentei pois havia um erro de leitura
+  if (umidad < 35.00){ //comentei pois havia um erro de leitura
     if (temper >= temperAcionamento){
       Acionamento();
       contador = 11;
@@ -65,6 +65,6 @@ void loop(){
         
         contador++;
       }
-  //}         
+  }         
   delay(900000); // aguarda 30 minutos
 }
