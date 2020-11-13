@@ -1,6 +1,8 @@
 #include "dht.h" //INCLUSÃO DE BIBLIOTECA
  
 const int pinoDHT11 = A2; //PINO ANALÓGICO UTILIZADO PELO DHT11
+
+//teste de alteração do phpstorm
  
 dht DHT; //VARIÁVEL DO TIPO DHT
 int contador = 1;
